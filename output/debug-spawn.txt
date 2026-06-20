@@ -1,0 +1,659 @@
+﻿C:\Users\StefaK\Desktop\goldsrc-probe\GoldSrcProbe\GoldSrcProbe.csproj : warning NU1902: Package 'SharpCompress' 0.38.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
+C:\Users\StefaK\Desktop\goldsrc-probe\GoldSrcProbe\GoldSrcProbe.csproj : warning NU1902: Package 'SharpCompress' 0.38.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
+=== GoldSrc Verify (join + status) ===
+Servers: 1 | Bot: MsBoostBOT
+
+[57.129.61.75:27015]
+  Local UDP :27006 -> 57.129.61.75:27015
+  [net] out rel seq=1 len=13
+  [net] in seq=1 rel=True frag=True len=67 inSeq=0 ack=1 ackRel=1 pendRel=1
+  [net] frag payload 59b
+  [net] frag 1/1 off=0 len=49 got=1
+  [net] frag complete 49b op=0x09
+  [net] svc payload 49b op=0x09
+  [net] out unrel seq=2 len=16
+  [net] in seq=2 rel=True frag=True len=1042 inSeq=1 ack=2 ackRel=1 pendRel=1
+  [net] frag payload 1034b
+  [net] frag 1/6 off=0 len=1024 got=1
+  [net] out unrel seq=3 len=16
+  [net] in seq=3 rel=True frag=True len=1042 inSeq=2 ack=3 ackRel=1 pendRel=1
+  [net] frag payload 1034b
+  [net] frag 2/6 off=0 len=1024 got=2
+  [net] out unrel seq=4 len=16
+  [net] in seq=4 rel=True frag=True len=1042 inSeq=3 ack=4 ackRel=1 pendRel=1
+  [net] frag payload 1034b
+  [net] frag 3/6 off=0 len=1024 got=3
+  [net] out unrel seq=5 len=16
+  [net] in seq=5 rel=True frag=True len=1042 inSeq=4 ack=5 ackRel=1 pendRel=1
+  [net] frag payload 1034b
+  [net] frag 4/6 off=0 len=1024 got=4
+  [net] out unrel seq=6 len=16
+  [net] in seq=6 rel=True frag=True len=1042 inSeq=5 ack=6 ackRel=1 pendRel=1
+  [net] frag payload 1034b
+  [net] frag 5/6 off=0 len=1024 got=5
+  [net] out unrel seq=7 len=16
+  [net] in seq=7 rel=True frag=True len=492 inSeq=6 ack=7 ackRel=1 pendRel=1
+  [net] frag payload 484b
+  [net] frag 6/6 off=0 len=474 got=6
+  [net] frag complete 5594b op=0x42
+  [net] svc payload 11233b op=0x08
+  [net] svc_print: 
+BUILD 4002 SERVER (0 CRC)
+Server # 223
+  [net] out unrel seq=8 len=16
+  [net] in seq=8 rel=False frag=False len=16 inSeq=7 ack=8 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=9 len=16
+  [net] in seq=9 rel=False frag=False len=16 inSeq=8 ack=9 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=10 len=16
+  [net] in seq=10 rel=False frag=False len=16 inSeq=9 ack=10 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=11 len=16
+  [net] in seq=11 rel=False frag=False len=16 inSeq=10 ack=11 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=12 len=16
+  [net] in seq=12 rel=False frag=False len=16 inSeq=11 ack=12 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=13 len=16
+  [net] in seq=13 rel=False frag=False len=16 inSeq=12 ack=13 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=14 len=16
+  [net] in seq=14 rel=False frag=False len=16 inSeq=13 ack=14 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=15 len=16
+  [net] in seq=15 rel=False frag=False len=16 inSeq=14 ack=15 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=16 len=16
+  [net] in seq=16 rel=False frag=False len=16 inSeq=15 ack=16 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=17 len=16
+  [net] in seq=17 rel=False frag=False len=16 inSeq=16 ack=17 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=18 len=16
+  [net] in seq=18 rel=False frag=False len=16 inSeq=17 ack=18 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=19 len=16
+  [net] in seq=19 rel=False frag=False len=16 inSeq=18 ack=19 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=20 len=16
+  [net] in seq=20 rel=False frag=False len=16 inSeq=19 ack=20 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=21 len=16
+  [net] in seq=21 rel=False frag=False len=16 inSeq=20 ack=21 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=22 len=16
+  [net] in seq=22 rel=False frag=False len=16 inSeq=21 ack=22 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=23 len=16
+  [net] in seq=23 rel=False frag=False len=16 inSeq=22 ack=23 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=24 len=16
+  [net] in seq=24 rel=False frag=False len=16 inSeq=23 ack=24 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=25 len=16
+  [net] in seq=25 rel=False frag=False len=16 inSeq=24 ack=25 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=26 len=16
+  [net] in seq=26 rel=False frag=False len=16 inSeq=25 ack=26 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=27 len=16
+  [net] in seq=27 rel=False frag=False len=16 inSeq=26 ack=27 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=28 len=16
+  [net] in seq=28 rel=False frag=False len=16 inSeq=27 ack=28 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=29 len=16
+  [net] in seq=29 rel=False frag=False len=16 inSeq=28 ack=29 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=30 len=16
+  [net] in seq=30 rel=False frag=False len=16 inSeq=29 ack=30 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=31 len=16
+  [net] in seq=31 rel=False frag=False len=16 inSeq=30 ack=31 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=32 len=16
+  [net] in seq=32 rel=False frag=False len=16 inSeq=31 ack=32 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=33 len=16
+  [net] in seq=33 rel=False frag=False len=16 inSeq=32 ack=33 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=34 len=16
+  [net] in seq=34 rel=False frag=False len=16 inSeq=33 ack=34 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=35 len=16
+  [net] in seq=35 rel=False frag=False len=16 inSeq=34 ack=35 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=36 len=16
+  [net] in seq=36 rel=False frag=False len=16 inSeq=35 ack=36 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=37 len=16
+  [net] in seq=37 rel=False frag=False len=16 inSeq=36 ack=37 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=38 len=16
+  [net] in seq=38 rel=False frag=False len=16 inSeq=37 ack=38 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=39 len=16
+  [net] in seq=39 rel=False frag=False len=16 inSeq=38 ack=39 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=40 len=16
+  [net] in seq=40 rel=False frag=False len=16 inSeq=39 ack=40 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=41 len=16
+  [net] in seq=41 rel=False frag=False len=16 inSeq=40 ack=41 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=42 len=16
+  [net] in seq=42 rel=False frag=False len=16 inSeq=41 ack=42 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=43 len=16
+  [net] in seq=43 rel=False frag=False len=16 inSeq=42 ack=43 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=44 len=16
+  [net] in seq=44 rel=False frag=False len=16 inSeq=43 ack=44 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=45 len=16
+  [net] in seq=45 rel=False frag=False len=16 inSeq=44 ack=45 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=46 len=16
+  [net] out rel seq=47 len=17
+  [net] in seq=46 rel=False frag=False len=16 inSeq=45 ack=46 ackRel=1 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=48 len=16
+  [net] in seq=47 rel=True frag=True len=1042 inSeq=46 ack=47 ackRel=0 pendRel=0
+  [net] frag payload 1034b
+  [net] frag 1/12 off=0 len=1024 got=1
+  [net] out unrel seq=49 len=16
+  [net] in seq=48 rel=True frag=True len=1042 inSeq=47 ack=49 ackRel=0 pendRel=0
+  [net] frag payload 1034b
+  [net] frag 2/12 off=0 len=1024 got=2
+  [net] out unrel seq=50 len=16
+  [net] in seq=49 rel=True frag=True len=1042 inSeq=48 ack=50 ackRel=0 pendRel=0
+  [net] frag payload 1034b
+  [net] frag 3/12 off=0 len=1024 got=3
+  [net] out unrel seq=51 len=16
+  [net] in seq=50 rel=True frag=True len=1042 inSeq=49 ack=51 ackRel=0 pendRel=0
+  [net] frag payload 1034b
+  [net] frag 4/12 off=0 len=1024 got=4
+  [net] out unrel seq=52 len=16
+  [net] in seq=51 rel=True frag=True len=1042 inSeq=50 ack=52 ackRel=0 pendRel=0
+  [net] frag payload 1034b
+  [net] frag 5/12 off=0 len=1024 got=5
+  [net] out unrel seq=53 len=16
+  [net] in seq=52 rel=True frag=True len=1042 inSeq=51 ack=53 ackRel=0 pendRel=0
+  [net] frag payload 1034b
+  [net] frag 6/12 off=0 len=1024 got=6
+  [net] out unrel seq=54 len=16
+  [net] in seq=53 rel=True frag=True len=1042 inSeq=52 ack=54 ackRel=0 pendRel=0
+  [net] frag payload 1034b
+  [net] frag 7/12 off=0 len=1024 got=7
+  [net] out unrel seq=55 len=16
+  [net] in seq=54 rel=True frag=True len=1042 inSeq=53 ack=55 ackRel=0 pendRel=0
+  [net] frag payload 1034b
+  [net] frag 8/12 off=0 len=1024 got=8
+  [net] out unrel seq=56 len=16
+  [net] in seq=55 rel=True frag=True len=1042 inSeq=54 ack=56 ackRel=0 pendRel=0
+  [net] frag payload 1034b
+  [net] frag 9/12 off=0 len=1024 got=9
+  [net] out unrel seq=57 len=16
+  [net] in seq=56 rel=True frag=True len=1042 inSeq=55 ack=57 ackRel=0 pendRel=0
+  [net] frag payload 1034b
+  [net] frag 10/12 off=0 len=1024 got=10
+  [net] out unrel seq=58 len=16
+  [net] in seq=57 rel=True frag=True len=1042 inSeq=56 ack=58 ackRel=0 pendRel=0
+  [net] frag payload 1034b
+  [net] frag 11/12 off=0 len=1024 got=11
+  [net] out unrel seq=59 len=16
+  [net] in seq=58 rel=True frag=True len=795 inSeq=57 ack=59 ackRel=0 pendRel=0
+  [net] frag payload 787b
+  [net] frag 12/12 off=0 len=777 got=12
+  [net] frag complete 12041b op=0x42
+  [net] svc payload 28872b op=0x2D
+  [net] fastdl: http://node1.esportsgaming.pro/25329684-d788-4a0a-8e59-964c3e53bd35/cstrike
+  [net] resource list: 984 entries, consistency=False, wire=0, marked=0
+  [net] out unrel seq=60 len=16
+  [net] in seq=59 rel=False frag=False len=16 inSeq=58 ack=60 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=61 len=16
+  [net] in seq=60 rel=False frag=False len=16 inSeq=59 ack=61 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=62 len=16
+  [net] in seq=61 rel=False frag=False len=16 inSeq=60 ack=62 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=63 len=16
+  [net] in seq=62 rel=False frag=False len=16 inSeq=61 ack=63 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=64 len=16
+  [net] in seq=63 rel=False frag=False len=16 inSeq=62 ack=64 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=65 len=16
+  [net] in seq=64 rel=False frag=False len=16 inSeq=63 ack=65 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=66 len=16
+  [net] in seq=65 rel=False frag=False len=16 inSeq=64 ack=66 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=67 len=16
+  [net] in seq=66 rel=False frag=False len=16 inSeq=65 ack=67 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=68 len=16
+  [net] in seq=67 rel=False frag=False len=16 inSeq=66 ack=68 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=69 len=16
+  [net] in seq=68 rel=False frag=False len=16 inSeq=67 ack=69 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=70 len=16
+  [net] in seq=69 rel=False frag=False len=16 inSeq=68 ack=70 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=71 len=16
+  [net] in seq=70 rel=False frag=False len=16 inSeq=69 ack=71 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=72 len=16
+  [net] in seq=71 rel=False frag=False len=16 inSeq=70 ack=72 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=73 len=16
+  [net] in seq=72 rel=False frag=False len=16 inSeq=71 ack=73 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=74 len=16
+  [net] in seq=73 rel=False frag=False len=16 inSeq=72 ack=74 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=75 len=16
+  [net] in seq=74 rel=False frag=False len=16 inSeq=73 ack=75 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=76 len=16
+  [net] in seq=75 rel=False frag=False len=16 inSeq=74 ack=76 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=77 len=16
+  [net] in seq=76 rel=False frag=False len=16 inSeq=75 ack=77 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=78 len=16
+  [net] in seq=77 rel=False frag=False len=16 inSeq=76 ack=78 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=79 len=16
+  [net] in seq=78 rel=False frag=False len=16 inSeq=77 ack=79 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=80 len=16
+  [net] in seq=79 rel=False frag=False len=16 inSeq=78 ack=80 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=81 len=16
+  [net] in seq=80 rel=False frag=False len=16 inSeq=79 ack=81 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=82 len=16
+  [net] in seq=81 rel=False frag=False len=16 inSeq=80 ack=82 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=83 len=16
+  [net] in seq=82 rel=False frag=False len=16 inSeq=81 ack=83 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=84 len=16
+  [net] in seq=83 rel=False frag=False len=16 inSeq=82 ack=84 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=85 len=16
+  [net] in seq=84 rel=False frag=False len=16 inSeq=83 ack=85 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=86 len=16
+  [net] in seq=85 rel=False frag=False len=16 inSeq=84 ack=86 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=87 len=16
+  [net] in seq=86 rel=False frag=False len=16 inSeq=85 ack=87 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=88 len=16
+  [net] in seq=87 rel=False frag=False len=16 inSeq=86 ack=88 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=89 len=16
+  [net] in seq=88 rel=False frag=False len=16 inSeq=87 ack=89 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out ack seq=90 len=16
+  [net] in seq=89 rel=False frag=False len=16 inSeq=88 ack=90 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=91 len=16
+  [net] in seq=90 rel=False frag=False len=16 inSeq=89 ack=91 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=92 len=16
+  [net] in seq=91 rel=False frag=False len=16 inSeq=90 ack=92 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=93 len=16
+  [net] in seq=92 rel=False frag=False len=16 inSeq=91 ack=93 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=94 len=16
+  [net] in seq=93 rel=False frag=False len=16 inSeq=92 ack=94 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=95 len=16
+  [net] in seq=94 rel=False frag=False len=16 inSeq=93 ack=95 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=96 len=16
+  [net] in seq=95 rel=False frag=False len=16 inSeq=94 ack=96 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=97 len=16
+  [net] in seq=96 rel=False frag=False len=16 inSeq=95 ack=97 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=98 len=16
+  [net] in seq=97 rel=False frag=False len=16 inSeq=96 ack=98 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=99 len=16
+  [net] in seq=98 rel=False frag=False len=16 inSeq=97 ack=99 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=100 len=16
+  [net] in seq=99 rel=False frag=False len=16 inSeq=98 ack=100 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=101 len=16
+  [net] in seq=100 rel=False frag=False len=16 inSeq=99 ack=101 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=102 len=16
+  [net] in seq=101 rel=False frag=False len=16 inSeq=100 ack=102 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=103 len=16
+  [net] in seq=102 rel=False frag=False len=16 inSeq=101 ack=103 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=104 len=16
+  [net] in seq=103 rel=False frag=False len=16 inSeq=102 ack=104 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=105 len=16
+  [net] in seq=104 rel=False frag=False len=16 inSeq=103 ack=105 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=106 len=16
+  [net] in seq=105 rel=False frag=False len=16 inSeq=104 ack=106 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=107 len=16
+  [net] in seq=106 rel=False frag=False len=16 inSeq=105 ack=107 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=108 len=16
+  [net] in seq=107 rel=False frag=False len=16 inSeq=106 ack=108 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=109 len=16
+  [net] in seq=108 rel=False frag=False len=16 inSeq=107 ack=109 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=110 len=16
+  [net] fastdl: http://node1.esportsgaming.pro/25329684-d788-4a0a-8e59-964c3e53bd35/cstrike
+  [net] file consistency: required=False, wire/marked=0, mungeKey=223
+  [net] in seq=109 rel=False frag=False len=16 inSeq=108 ack=110 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=111 len=16
+  [net] in seq=110 rel=False frag=False len=16 inSeq=109 ack=111 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=112 len=16
+  [net] in seq=111 rel=False frag=False len=16 inSeq=110 ack=112 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=113 len=16
+  [net] in seq=112 rel=False frag=False len=16 inSeq=111 ack=113 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=114 len=16
+  [net] in seq=113 rel=False frag=False len=16 inSeq=112 ack=114 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=115 len=16
+  [net] in seq=114 rel=False frag=False len=16 inSeq=113 ack=115 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=116 len=16
+  [net] in seq=115 rel=False frag=False len=16 inSeq=114 ack=116 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=117 len=16
+  [net] in seq=116 rel=False frag=False len=16 inSeq=115 ack=117 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=118 len=16
+  [net] in seq=117 rel=False frag=False len=16 inSeq=116 ack=118 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=119 len=16
+  [net] in seq=118 rel=False frag=False len=16 inSeq=117 ack=119 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=120 len=16
+  [net] in seq=119 rel=False frag=False len=16 inSeq=118 ack=120 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=121 len=16
+  [net] in seq=120 rel=False frag=False len=16 inSeq=119 ack=121 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=122 len=16
+  [net] in seq=121 rel=False frag=False len=16 inSeq=120 ack=122 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=123 len=16
+  [net] in seq=122 rel=False frag=False len=16 inSeq=121 ack=123 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=124 len=16
+  [net] in seq=123 rel=False frag=False len=16 inSeq=122 ack=124 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=125 len=16
+  [net] in seq=124 rel=False frag=False len=16 inSeq=123 ack=125 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=126 len=16
+  [net] in seq=125 rel=False frag=False len=16 inSeq=124 ack=126 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=127 len=16
+  [net] in seq=126 rel=False frag=False len=16 inSeq=125 ack=127 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=128 len=16
+  [net] in seq=127 rel=False frag=False len=16 inSeq=126 ack=128 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=129 len=16
+  [net] in seq=128 rel=False frag=False len=16 inSeq=127 ack=129 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=130 len=16
+  [net] in seq=129 rel=False frag=False len=16 inSeq=128 ack=130 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=131 len=16
+  [net] in seq=130 rel=False frag=False len=16 inSeq=129 ack=131 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=132 len=16
+  [net] in seq=131 rel=False frag=False len=16 inSeq=130 ack=132 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=133 len=16
+  [net] in seq=132 rel=False frag=False len=16 inSeq=131 ack=133 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=134 len=16
+  [net] in seq=133 rel=False frag=False len=16 inSeq=132 ack=134 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=135 len=16
+  [net] in seq=134 rel=False frag=False len=16 inSeq=133 ack=135 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=136 len=16
+  [net] in seq=135 rel=False frag=False len=16 inSeq=134 ack=136 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=137 len=16
+  [net] in seq=136 rel=False frag=False len=16 inSeq=135 ack=137 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=138 len=16
+  [net] in seq=137 rel=False frag=False len=16 inSeq=136 ack=138 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=139 len=16
+  [net] in seq=138 rel=False frag=False len=16 inSeq=137 ack=139 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=140 len=16
+  [net] in seq=139 rel=False frag=False len=16 inSeq=138 ack=140 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=141 len=16
+  [net] in seq=140 rel=False frag=False len=16 inSeq=139 ack=141 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=142 len=16
+  [net] in seq=141 rel=False frag=False len=16 inSeq=140 ack=142 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=143 len=16
+  [net] in seq=142 rel=False frag=False len=16 inSeq=141 ack=143 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=144 len=16
+  [net] in seq=143 rel=False frag=False len=16 inSeq=142 ack=144 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=145 len=16
+  [net] in seq=144 rel=False frag=False len=16 inSeq=143 ack=145 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=146 len=16
+  [net] in seq=145 rel=False frag=False len=16 inSeq=144 ack=146 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=147 len=16
+  [net] in seq=146 rel=False frag=False len=16 inSeq=145 ack=147 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=148 len=16
+  [net] in seq=147 rel=False frag=False len=16 inSeq=146 ack=148 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=149 len=16
+  [net] in seq=148 rel=False frag=False len=16 inSeq=147 ack=149 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=150 len=16
+  [net] in seq=149 rel=False frag=False len=16 inSeq=148 ack=150 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=151 len=16
+  [net] in seq=150 rel=False frag=False len=16 inSeq=149 ack=151 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=152 len=16
+  [net] in seq=151 rel=False frag=False len=16 inSeq=150 ack=152 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=153 len=16
+  [net] in seq=152 rel=False frag=False len=16 inSeq=151 ack=153 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=154 len=16
+  [net] in seq=153 rel=False frag=False len=16 inSeq=152 ack=154 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=155 len=16
+  [net] in seq=154 rel=False frag=False len=16 inSeq=153 ack=155 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=156 len=16
+  [net] in seq=155 rel=False frag=False len=16 inSeq=154 ack=156 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=157 len=16
+  [net] in seq=156 rel=False frag=False len=16 inSeq=155 ack=157 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=158 len=16
+  [net] in seq=157 rel=False frag=False len=16 inSeq=156 ack=158 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=159 len=16
+  [net] in seq=158 rel=False frag=False len=16 inSeq=157 ack=159 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=160 len=16
+  [net] in seq=159 rel=False frag=False len=16 inSeq=158 ack=160 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=161 len=16
+  [net] in seq=160 rel=False frag=False len=16 inSeq=159 ack=161 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=162 len=16
+  [net] in seq=161 rel=False frag=False len=16 inSeq=160 ack=162 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=163 len=16
+  [net] in seq=162 rel=False frag=False len=16 inSeq=161 ack=163 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=164 len=16
+  [net] in seq=163 rel=False frag=False len=16 inSeq=162 ack=164 ackRel=0 pendRel=0
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=165 len=16
+  [net] spawn: count=223 crc=1249858164
+  [net] out rel seq=166 len=30
+  [net] in seq=164 rel=True frag=True len=44 inSeq=163 ack=166 ackRel=1 pendRel=1
+  [net] frag payload 36b
+  [net] frag 1/1 off=0 len=26 got=1
+  [net] frag complete 26b op=0x05
+  [net] svc payload 26b op=0x05
+  [net] out unrel seq=167 len=16
+  [net] in seq=165 rel=True frag=True len=1042 inSeq=164 ack=167 ackRel=1 pendRel=1
+  [net] frag payload 1034b
+  [net] frag 1/3 off=0 len=1024 got=1
+  [net] out unrel seq=168 len=16
+  [net] in seq=166 rel=True frag=True len=1042 inSeq=165 ack=168 ackRel=1 pendRel=1
+  [net] frag payload 1034b
+  [net] frag 2/3 off=0 len=1024 got=2
+  [net] out unrel seq=169 len=16
+  [net] in seq=167 rel=True frag=True len=913 inSeq=166 ack=169 ackRel=1 pendRel=1
+  [net] frag payload 905b
+  [net] frag 3/3 off=0 len=895 got=3
+  [net] frag complete 2943b op=0x42
+  [net] svc payload 5648b op=0x4E
+  [net] out unrel seq=170 len=16
+  [net] in seq=168 rel=True frag=False len=167 inSeq=167 ack=170 ackRel=1 pendRel=1
+  [net] svc payload 159b op=0x0D
+  [net] out unrel seq=171 len=16
+  [net] in seq=169 rel=True frag=False len=24 inSeq=168 ack=171 ackRel=1 pendRel=1
+  [net] svc payload 16b op=0x0C
+  [net] out unrel seq=172 len=16
+  [net] in seq=170 rel=True frag=False len=16 inSeq=169 ack=172 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x41
+  [net] out unrel seq=173 len=16
+  [net] in seq=171 rel=False frag=False len=16 inSeq=170 ack=173 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=174 len=16
+  [net] in seq=172 rel=False frag=False len=16 inSeq=171 ack=174 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=175 len=16
+  [net] in seq=173 rel=False frag=False len=16 inSeq=172 ack=175 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=176 len=16
+  [net] in seq=174 rel=True frag=False len=20 inSeq=173 ack=176 ackRel=1 pendRel=1
+  [net] svc payload 12b op=0x93
+  [net] out unrel seq=177 len=16
+  [net] in seq=175 rel=True frag=False len=20 inSeq=174 ack=177 ackRel=1 pendRel=1
+  [net] svc payload 12b op=0x93
+  [net] out unrel seq=178 len=16
+  [net] in seq=176 rel=False frag=False len=16 inSeq=175 ack=178 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=179 len=16
+  [net] in seq=177 rel=True frag=False len=20 inSeq=176 ack=179 ackRel=1 pendRel=1
+  [net] svc payload 12b op=0x93
+  [net] out unrel seq=180 len=16
+  [net] in seq=178 rel=True frag=False len=16 inSeq=177 ack=180 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x41
+  [net] out unrel seq=181 len=16
+  [net] in seq=179 rel=False frag=False len=16 inSeq=178 ack=181 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=182 len=16
+  [net] in seq=180 rel=True frag=False len=20 inSeq=179 ack=182 ackRel=1 pendRel=1
+  [net] svc payload 12b op=0x93
+  [net] out unrel seq=183 len=16
+  [net] in seq=181 rel=False frag=False len=16 inSeq=180 ack=183 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=184 len=16
+  [net] in seq=182 rel=False frag=False len=16 inSeq=181 ack=184 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=185 len=16
+  [net] in seq=183 rel=False frag=False len=16 inSeq=182 ack=185 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=186 len=16
+  [net] in seq=184 rel=False frag=False len=16 inSeq=183 ack=186 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=187 len=16
+  [net] in seq=185 rel=True frag=False len=16 inSeq=184 ack=187 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x41
+  [net] out unrel seq=188 len=16
+  [net] in seq=186 rel=False frag=False len=16 inSeq=185 ack=188 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=189 len=16
+  [net] in seq=187 rel=False frag=False len=16 inSeq=186 ack=189 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=190 len=16
+  [net] in seq=188 rel=False frag=False len=16 inSeq=187 ack=190 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=191 len=16
+  [net] in seq=189 rel=True frag=False len=20 inSeq=188 ack=191 ackRel=1 pendRel=1
+  [net] svc payload 12b op=0x93
+  [net] out unrel seq=192 len=16
+  [net] in seq=190 rel=False frag=False len=16 inSeq=189 ack=192 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=193 len=16
+  [net] in seq=191 rel=False frag=False len=16 inSeq=190 ack=193 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=194 len=16
+  [net] in seq=192 rel=True frag=False len=16 inSeq=191 ack=194 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x41
+  [net] out unrel seq=195 len=16
+  [net] in seq=193 rel=True frag=False len=20 inSeq=192 ack=195 ackRel=1 pendRel=1
+  [net] svc payload 12b op=0x93
+  [net] out unrel seq=196 len=16
+  [net] in seq=194 rel=True frag=False len=20 inSeq=193 ack=196 ackRel=1 pendRel=1
+  [net] svc payload 12b op=0x93
+  [net] out unrel seq=197 len=16
+  [net] in seq=195 rel=False frag=False len=16 inSeq=194 ack=197 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=198 len=16
+  [net] in seq=196 rel=False frag=False len=16 inSeq=195 ack=198 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=199 len=16
+  [net] in seq=197 rel=True frag=False len=20 inSeq=196 ack=199 ackRel=1 pendRel=1
+  [net] svc payload 12b op=0x93
+  [net] out unrel seq=200 len=16
+  [net] in seq=198 rel=False frag=False len=16 inSeq=197 ack=200 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=201 len=16
+  [net] in seq=199 rel=True frag=False len=16 inSeq=198 ack=201 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x41
+  [net] out unrel seq=202 len=16
+  [net] in seq=200 rel=False frag=False len=16 inSeq=199 ack=202 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=203 len=16
+  [net] in seq=202 rel=False frag=False len=16 inSeq=200 ack=202 ackRel=1 pendRel=1
+  [net] svc payload 8b op=0x01
+  [net] out unrel seq=204 len=16
+  [net] out rel seq=205 len=20
+  FAIL ΓÇö Signon stuck at 2/3 auth:RevEmu
+
+Saved: C:\Users\StefaK\Desktop\goldsrc-probe\output\verify_players.json
+Done. Joined: 0/1 | Likely fake: 0

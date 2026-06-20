@@ -1,0 +1,7 @@
+# Paste servers here (one ip:port per line)
+# Test HLDS (ReUnion, direct IP):
+179.61.132.147:27015
+
+# From msboost — examples (often A2S-only proxy):
+# 188.212.102.42:27015
+# 51.38.119.150:27015

@@ -1,0 +1,14 @@
+{
+  "PlayerName": "MsBoostBOT",
+  "ConnectTimeoutMs": 90000,
+  "ConnectRetryCount": 1,
+  "ConnectRetryDelayMs": 20000,
+  "A2STimeoutMs": 4000,
+  "DelayBetweenServersMs": 500,
+  "Mode": "verify",
+  "OutputFile": "output/status_probe.json",
+  "VerifyOutputFile": "output/verify_players.json",
+  "AuthEmulator": "revemu",
+  "CsGamePath": "C:\\Games\\Counter Strike 1.6",
+  "BindPort": 27006
+}

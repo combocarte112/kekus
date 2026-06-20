@@ -1,0 +1,16 @@
+{
+  "generatedAtUtc": "2026-06-20T21:34:29.7751687Z",
+  "servers": [
+    {
+      "address": "57.129.61.75:27015",
+      "verifiedAtUtc": "2026-06-20T21:36:24.1082717Z",
+      "joined": false,
+      "signonState": 0,
+      "authUsed": "RevEmu",
+      "error": "Disconnect: Reliable channel overflowed",
+      "reachability": "rejected",
+      "connectAttempts": 1,
+      "rawStatus": []
+    }
+  ]
+}

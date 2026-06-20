@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "+YKO3B6fAws=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\StefaK\\Desktop\\goldsrc-probe\\GoldSrcProbe\\GoldSrcProbe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\StefaK\\.nuget\\packages\\sharpcompress\\0.38.0\\sharpcompress.0.38.0.nupkg.sha512",
+    "C:\\Users\\StefaK\\.nuget\\packages\\zstdsharp.port\\0.8.1\\zstdsharp.port.0.8.1.nupkg.sha512",
+    "C:\\Users\\StefaK\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.28\\microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\StefaK\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.28\\microsoft.netcore.app.host.win-x64.8.0.28.nupkg.sha512",
+    "C:\\Users\\StefaK\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.28\\microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\StefaK\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'SharpCompress' 0.38.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338",
+      "projectPath": "C:\\Users\\StefaK\\Desktop\\goldsrc-probe\\GoldSrcProbe\\GoldSrcProbe.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\StefaK\\Desktop\\goldsrc-probe\\GoldSrcProbe\\GoldSrcProbe.csproj",
+      "libraryId": "SharpCompress",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
